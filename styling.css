@@ -1,0 +1,35 @@
+html{
+    font-family: futura-pt, sans-serif;
+    background-color: #f5f0eb;
+}
+body{
+    background-color: #f5f0eb;
+}
+nav{
+    background-color: white;
+    height: 10%;
+}
+.titles{
+    background-color: yellow;
+}
+#logo{
+    margin-left: 15px;
+    width: 90px;
+    height: auto;
+    display: inline;
+}
+li{
+    color: #1f191a;
+    margin: 5%;
+    font-size: 18px;
+    list-style-type: none;
+    display: inline;
+    width: fit-content;
+    
+}
+li:hover{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #eda13d;
+    padding: 10px, 15px;
+}
