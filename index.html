@@ -7,71 +7,231 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.typekit.net/kgb3lpg.css">
         <link rel="stylesheet" href="./styling.css">
+        <script src="https://unpkg.com/scrollreveal"></script>  
     </head>
     <body>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-        <nav class="navbar fixed-top">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="https://www.aveeno.ca">
-              <img src="./logo@2x.png" alt="" id="logo">
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">Sun</li>
-                <li class="nav-item">Hair</li>
-                <li class="nav-item">Skin</li>
-                <li>icon</li>
-            </ul>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+            
+        <div id="nav">
+          <div class="row g-0">
+            <div class="col-4">
+                <img src="./logo@2x.png" alt="" class="logo">
+            </div>
+            <div class="col-8">
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Sun</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hair</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skin</a>
+                </li>
+                <img src="./Icon ionic-ios-search@2x.png" alt="search" class="search">
+              </ul>
+            </div>
           </div>
-        </nav>
-        <div class="titles">
-            <h2>How to pick a</h2>
-            <h1>SUNSCREEN</h1>
+        </div>
+        <div class="row g-0 landing">
+            <div class="col-6">
+              <h3>How to pick a</h2>
+              <h1>SUNSCREEN</h1>
+              <p class="welcome">AVEENO sun care products have you covered with broad spectrum SPF sunburn protection. Help keep your skin protected from sunburn so you can keep having your fun in the sun.</p>
+              <div class="line"></div>
+              <h2 class="subtitle">Must Have's</h2>
+            </div>
+            <div class="col-6 justify-content-end">
+              <img src="./Aveeno-Protect-Hydrate-Sunscreen-Broad-Spectrum-SPF-50-for-Face@2x.png" alt="Aveeno sunscreen"  id="sunbottle">
+            </div>
+        </div>
+        <div class="row g-0 essentials">
+
+          <div class="col-4">
+            <div class="circle">
+              <h4>SPF</h4> <h4 class="number">30+</h4>
+            </div>
+            <h5>SPF 30 or<br>Higher</h5>
+          </div>
+          <div class="col-4">
+            <div class="circle">
+              <img src="./Icon ionic-ios-water@2x.png" alt="water resistant" class="water">
+            </div>
+            <h5>Sweat / Water<br>Resistant</h5>
+          </div>
+          <div class="col-4">
+            <div class="circle">
+              <h4 class="uva">UVA<br>UVB</h4>
+            </div>
+            <h5>Broad Spectrum<br>Protection</h5>
+          </div>
+
+          <h1 class="orange">WHAT'S YOUR TYPE?</h1>
         </div>
 
+      <div class="row g-0 white">
+            <div class="col-12">
+              <h2>Sunscreen Types</h2>
+            </div>
+            <div class="col-6">
+              <div class="circle small">
+                <img src="./mineral@2x.png" alt="mineral" class="icon" id="mineral">  
+              </div>  
+              <h5>Mineral</h5>
+              <p style="text-align: center;">Mineral sunscreens are ideal for sensitive skin. These kind of sunscreens form a shield over your skin to protect you from UV light.</p>
+              <div class="line v"></div>
+            </div>    
+            <div class="col-6">
+              <div class="circle small">
+                <img src="./chemical@2x.png" alt="chemical" class="icon">  
+              </div>
+              <h5>Chemical</h5>
+              <p style="text-align: center;">Chemical sunscreens absorb into the skin. They use the sun's rays and transform them into other forms of energy, like heat.</p>
+            </div>  
+            <!-- skin Types -->
 
+          <div class="row g-0">
+            <div class="col-12">
+              <h2>Skin Types</h2>
+            </div>
+            <div class="col-4">
+              <div class="circle">
+                <img src="./dry@2x.png" alt="dry skin icon" class="icon" id="dry">  
+              </div>  
+              <h5>Dry Skin</h5>
+              <h5 class="product">Aveeno Active Naturals<br>Protect + Hydrate </h5>
+              <p style="text-align: center;">Nourish your skin with moisturizing oat so it's left feeling soft, smooth and moisturized all day.</p>
+            </div>
+            <div class="col-4">
+              <div class="circle">
+                <img src="./oily@2x.png" alt="oily skin icon" class="icon" id="oily">  
+              </div>  
+              <h5>Oily Skin</h5>
+              <h5 class="product">Aveeno Positively<br>Radiant SPF Moisturizer</h5>
+              <p style="text-align: center;">Feel the perfect balance between skin glow and sun protection with this light moisturizer.</p>
+            </div>
+            <div class="col-4">
+              <div class="circle">
+                <img src="./sensitive@2x.png" alt="senstive skin icon" class="icon" id="sensitive">  
+              </div>  
+              <h5>Sensitive Skin</h5>
+              <h5 class="product">Aveeno Sensitive Skin<br> SPF 50 Sunscreen</h5>
+              <p style="text-align: center;">Combines naturally-sourced 100% zinc oxide and nourishing oat, making it suitable for sensitive skin.</p>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-12">
+              <h1 class="orange hide">LET'S RUB IT IN</h1>
+              <h2>How Much?</h2>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 1%;">
+          <div class="col-sm-6">
+             <div class="row">
+                <div class="col-8">
+                   <div class="circle side">
+                      <img src="./shot@2x.png" alt="shot glass" class="icon" id="shot">  
+                   </div>
+                </div>
+                <div class="col-4" style="padding-top: 12%;">
+                   <h5 class="side" style="text-align: left; margin-left: 0%;">1 Shot Glass<br>or 1 oz.</h5>
+                </div>
+             </div>
+          </div>
+          <div class="col-sm-6">
+             <div class="division"></div>
+             <p class="side">To fully cover your body, you'll need <br>about 1 ounce of sunscreen or just enough <br>to fill a shot glass. </p>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-12">
+            <h2>When?</h2>
+          </div>
+        </div>
+        <div class="row" style="margin-bottom: 5%;">
+          <div class="col-sm-6">
+            <div class="row">
+                <div class="col-8">
+                  <div class="circle side">
+                      <img src="./sun@2x.png" alt="sun" class="icon" id="sun">  
+                  </div>
+                </div>
+                <div class="col-4" style="padding-top: 14%;">
+                  <h5 class="side" style="text-align: left; margin-left: 0%;">15 Min Before</h5>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="division"></div>
+            <p class="side">Put on your sunscreen 15 minutes before getting under the sun, it takes some time for your skin to absorb it.</p>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2>How Often?</h2>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 12%;">
+        <div class="col-sm-6">
+          <div class="row">
+              <div class="col-8">
+                <div class="circle side">
+                    <img src="./timer@2x.png" alt="timer" class="icon" id="timer">  
+                </div>
+              </div>
+              <div class="col-4" style="padding-top: 14%;">
+                <h5 class="side" style="text-align: left; margin-left: 0%;">Every 2 Hours</h5>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="division"></div>
+          <p class="side">Apply sunscreen every 2 hours of being in the sun to ensure maximum protection.</p>
+        </div>
+    </div>
+      
+        <!--Video-->
+        <iframe src="https://player.vimeo.com/video/375487306" width="720" height="405" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>       
 
-
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zl2z9pb2W7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div> <!--end of white -->
+      <div class="row g-0">
+        <div class="col-12">
+          <h1 class="orange hide">OUT IN THE SUN</h1>
+          <h2>Code</h2>
+          <p style="margin-left: 10%;">Use JavaScript code to find out how long you have been out in the sun.</p>
+          <div class="coding">
+            <h5 class="coding" id="cn">var time </h5><h5 id="cg">=</h5><h5 id="co"> 0</h5><h5 id="cg">;</h5><br>
+            <h5 class="coding" id="cn">var onSun </h5><h5 id="cg">=</h5><h5 id="co"> False</h5><h5 id="cg">;</h5><br>
+            <br>
+            <h5 class="coding" id="cn">function mySunscreen </h5><h5 id="cg">(){</h5><br>
+            <h5 class="coding" id="cnt" style="margin-left: 10%;">for</h5><h5 id="cg">( </h5><h5 id="co">let</h5><h5 id="cnn"> i </h5><h5 id="cg">=</h5><h5 id="co"> 0</h5><h5 id="cg">;</h5><h5 id="cnn"> i </h5><h5 id="cg">></h5><h5 id="co"> 0</h5><h5 id="cg">;</h5><h5 id="cnn"> i </h5><h5 id="cg">++){</h5><br>
+            <h5 id="cnt" style="margin-left: 12%;">time</h5><h5 id="cg"> = </h5><h5 id="cnn">i</h5><h5 id="cg">;</h5><br>
+            <h5 id="cnt" style="margin-left: 12%;">sleep</h5><h5 id="cg">(</h5><h5 id="co">3600</h5><h5 id="cg">);</h5><br>
+            <h5 id="cg" style="margin-left: 10%;">};</h5><br>
+            <h5 id="cn" style="margin-left: 10%;">console</h5><h5 id="co">.</h5><h5 id="cnn">log</h5><h5 id="cg">(</h5><h5 id="co">`</h5><h5 id="cg">${</h5><h5 id="cnn">time</h5><h5 id="cg">}</h5><h5 id="co"> hours`</h5><h5 id="cg">);</h5><br>
+            <h5 id="cg" style="margin-left: 8%;">};</h5><br>
+            <br>
+            <h5 id="cn">while</h5><h5 id="cg">(</h5><h5 id="cnn">onSun</h5><h5 id="cg"> === </h5><h5 id="co">True</h5><h5 id="cg">){</h5><br>
+            <h5 id="cn" style="margin-left: 10%;">mySunscreen</h5><h5 id="cg">();</h5><br>
+            <h5 id="cg" style="margin-left: 8%;">};</h5><br>
+            <br>
+            <br>
+            <br>
+          </div>
+          
+        </div>
+      </div>
+ <!--Fade in animations-->
+        <script>ScrollReveal().reveal('.circle', { duration: 2000 });</script>
         <script>
-          // 2. This code loads the IFrame Player API code asynchronously.
-          var tag = document.createElement('script');
-    
-          tag.src = "https://www.youtube.com/iframe_api";
-          var firstScriptTag = document.getElementsByTagName('script')[0];
-          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    
-          // 3. This function creates an <iframe> (and YouTube player)
-          //    after the API code downloads.
-          var player;
-          function onYouTubeIframeAPIReady() {
-            player = new YT.Player('player', {
-              height: '390',
-              width: '640',
-              videoId: 'M7lc1UVf-VE',
-              events: {
-                'onReady': onPlayerReady,
-                'onStateChange': onPlayerStateChange
-              }
-            });
-    
-          // 4. The API will call this function when the video player is ready.
-          function onPlayerReady(event) {
-            event.target.playVideo();
-          }
-    
-          // 5. The API calls this function when the player's state changes.
-          //    The function indicates that when playing a video (state=1),
-          //    the player should play for six seconds and then stop.
-          var done = false;
-          function onPlayerStateChange(event) {
-            if (event.data == YT.PlayerState.PLAYING && !done) {
-              setTimeout(stopVideo, 6000);
-              done = true;
-            }
-          }
-          function stopVideo() {
-            player.stopVideo();
-          }
+          var slideUp = {
+          distance: '150%',
+          origin: 'bottom',
+          opacity: null
+          };
+          ScrollReveal().reveal('.hide', slideUp, { duration: 1000 },);
+          ScrollReveal().reveal('.circle', { duration: 2000, viewFactor: 0.8 });
         </script>
+
     </body>
 </html>
